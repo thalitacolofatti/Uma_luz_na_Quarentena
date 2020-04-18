@@ -1,82 +1,136 @@
-body{
-        background-image: url("imagens/contato.png");
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: 100%;
+@media screen and (max-width: 808px){
+    body{
+        background-image: url("imagens/andcontato_mobileldpi.png");
+        background-repeat: repeat-x;
+        background-position: left top;
+        width: 100%;
         background-attachment: scroll;
         background-color: #86e3ce;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin: 0%;
         padding: 0%;
-}
-
-@media screen and (max-width: 720px){
-    body{
-         background-image:url("imagens/andcontato_mobiledpi.png");
     }
+
+    #cabecalho{
+        color: #ccabd8;
+        margin: 0%;
+    }
+
+    h1{
+        font-size: 200%;
+        color: #ffffff;
+        background-color: #ccabd8;
+        background: size 100%;
+        text-align: center;
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0%;
+    }
+
     #navbar{
         display: flex;
-        justify-content: space-between;
-        padding-left: unset;
+        justify-content: space-evenly;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #ffffff;
+        margin: 0%;
+        text-decoration: unset;
     }
+
+    a{
+        font-size: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #86e3ce;
+        text-decoration: unset;
+        margin: 0%;
+        padding-right: 0%;
+    }
+    
+    a:hover{
+        color: #ccabd8;
+        text-decoration: unset;
+    }
+
     #formulario{
         margin-top: 1%;
         margin-left: 1%;
     }
+
+    #rodape{
+        background-color: white;
+        background-size: 100%;
+        margin-top: 5%;
+        padding-top: 1%;
+        padding-left: 5%;
+        padding-bottom: 1%;
+    }
 }
 
-#cabecalho{
-    color: #ccabd8;
-    margin: 0%;
-}
+@media screen and (min-width: 809px){
+    body{
+            background-image: url("imagens/contato.png");
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100%;
+            background-attachment: scroll;
+            background-color: #86e3ce;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0%;
+            padding: 0%;
+    }
 
-h1{
-    color: #ffffff;
-    background-color: #ccabd8;
-    background: size 100%;
-    text-align: left;
-    padding-left: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin: 0%;
-}
+    #cabecalho{
+        color: #ccabd8;
+        margin: 0%;
+    }
 
-#navbar{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 60%;
-    padding-right: 5%;
-    padding-bottom: 0%;
-    padding-top: 0%;
-    background-color: #ffffff;
-    margin: 0%;
-}
+    h1{
+        color: #ffffff;
+        background-color: #ccabd8;
+        background: size 100%;
+        text-align: left;
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0%;
+    }
+    #navbar{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #ffffff;
+        margin: 0%;
+        text-decoration: unset;
+    }
 
-a{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #86e3ce;
-    text-decoration: unset;
-    margin: 0%;
-}
+    a{
+        font-size: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #86e3ce;
+        text-decoration: unset;
+        margin: 0%;
+        padding-right: 0%;
+    }
 
-a:link{
-    color: #86e3ce;
-}
+    a:hover{
+        color: #ccabd8;
+        text-decoration: unset;
+    }
 
-a:hover{
-    color: #ccabd8;
-}
+    #formulario{
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
-#formulario{
-    margin-top: 5%;
-    margin-left: 30%;
-}
-
-#rodape{
-    background-color: white;
-    background-size: 100%;
-    margin-top: 5%;
-    padding-top: 1%;
-    padding-left: 5%;
-    padding-bottom: 1%;
+    #rodape{
+        background-color: white;
+        background-size: 100%;
+        margin-top: 5%;
+        padding-top: 1%;
+        padding-left: 5%;
+        padding-bottom: 1%;
+    }
 }

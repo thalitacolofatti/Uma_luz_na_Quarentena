@@ -1,119 +1,216 @@
-body{
-    background-image: url("imagens/saibamais.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100%;
-    background-attachment: scroll;
-    background-color: #ffdd94;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0%;
-    padding: 0%;
-}
-
-@media screen and (max-width: 720px){
+@media screen and (max-width: 808px){
     body{
-         background-image:url("imagens/andsm_mobiledpi.png");
+        background-image:url("imagens/andsm_mobileldpi.png");
+        background-repeat: repeat-x;
+        background-position: center bottom;
+        width: 100%;
+        background-attachment: scroll;
+        background-color: #86e3ce;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0%;
+        padding: 0%;
     }
-    #maislinks{
-        display: unset;
-        margin: 2%
+    #cabecalho{
+        color: #86e3ce;
+        margin: 0%;
+    }
+    h1{
+        font-size: 200%;
+        color: #ffffff;
+        background-color: #86e3ce;
+        background: size 100%;
+        text-align: center;
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0%;
     }
     #navbar{
         display: flex;
-        justify-content: space-between;
-        padding: unset;
+        justify-content: space-evenly;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #ffffff;
+        margin: 0%;
+        text-decoration: unset;
+    }
+
+    a{
+        font-size: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(47,47, 47);
+        text-decoration: unset;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    a:hover{
+        color: #ffdd94;
+        text-decoration: unset;
+    }
+
+    #conteúdo{
+        margin: 5%;
+    }
+    
+    #maislinks{
+        flex-wrap: wrap;
+        margin-top: 7%;
+        margin-left: 7%;
+        margin-right: 8%;
+    }
+    
+    #listas{
+        margin-bottom: 7%;
+        color: #86e3ce;
+        background-color: #ffffff;
+        text-align: left;
+        box-shadow: gray 1px 1px 2px;
+        border-radius: 5px;
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 5%;
+        padding-top: 1%;
+    }
+    
+    #listas_2{
+        margin-bottom: 7%;
+        color: #86e3ce;
+        background-color: #ffffff;
+        text-align: left;
+        box-shadow: gray 1px 1px 2px;
+        border-radius: 5px;
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 2%;
+        padding-top: 1%;
+    }
+    h3{
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    li{
+        line-height: 2.0;
+    }
+    
+    #rodape{
+        background-color: white;
+        background-size: 100%;
+        margin-top: 5%;
+        padding-top: 1%;
+        padding-left: 5%;
+        padding-bottom: 1%;
     }
 }
 
-#cabecalho{
-    text-align: center;
-    color: #86e3ce;
-    margin: 0%;
-}
+@media screen and (min-width: 809px){
+    body{
+        background-image: url("imagens/saibamais.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100%;
+        background-attachment: scroll;
+        background-color: #ffdd94;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0%;
+        padding: 0%;
+    }
 
-h1{
-    color: #ffffff;
-    background-color: #86e3ce;
-    background: size 100%;
-    text-align: left;
-    padding-left: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin: 0%;
-}
+    #cabecalho{
+        color: #86e3ce;
+        margin: 0%;
+    }
 
-#navbar{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 60%;
-    padding-right: 5%;
-    padding-bottom: 0%;
-    padding-top: 0%;
-    background-color: #ffffff;
-}
+    h1{
+        color: #ffffff;
+        background-color: #86e3ce;
+        background: size 100%;
+        text-align: left;
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0%;
+    }
 
-a{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(47,47, 47);
-    text-decoration: unset;
-}
+    #navbar{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #ffffff;
+        margin: 0%;
+        text-decoration: unset;
+    }
 
-a:hover{
-    color: #ffdd94;
-}
+    a{
+        font-size: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(47,47, 47);
+        text-decoration: unset;
+        margin: 0%;
+        padding-right: 0%;
+    }
 
-#conteúdo{
-    margin: 5%;
-}
+    a:hover{
+        color: #ffdd94;
+        text-decoration: unset;
+    }
 
-#maislinks{
-    display: flex;
-    justify-content: space-between;
-    margin: 2%
-}
+    #conteúdo{
+        margin: 5%;
+    }
 
-#listas{
-    margin-left: 3%;
-    margin-right: 3%;
-    color: #86e3ce;
-    background-color: #ffffff;
-    text-align: left;
-    box-shadow: gray 1px 1px 2px;
-    border-radius: 5px;
-    width: 100%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 5%;
-    padding-top: 1%;
-}
+    #maislinks{
+        display: flex;
+        justify-content: space-between;
+        margin: 2%;
+    }
 
-#listas_2{
-    margin-left: 3%;
-    margin-right: 3%;
-    color: #86e3ce;
-    background-color: #ffffff;
-    text-align: left;
-    box-shadow: gray 1px 1px 2px;
-    border-radius: 5px;
-    width: 100%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 2%;
-    padding-top: 1%;
-}
-h3{
-    text-align: center;
-    padding-bottom: 2%;
-}
-li{
-    line-height: 2.0;
-}
+    #listas{
+        margin-left: 3%;
+        margin-right: 3%;
+        color: #86e3ce;
+        background-color: #ffffff;
+        text-align: left;
+        box-shadow: gray 1px 1px 2px;
+        border-radius: 5px;
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 5%;
+        padding-top: 1%;
+    }
 
-#rodape{
-    background-color: white;
-    background-size: 100%;
-    margin-top: 5%;
-    padding-top: 1%;
-    padding-left: 5%;
-    padding-bottom: 1%;
+    #listas_2{
+        margin-left: 3%;
+        margin-right: 3%;
+        color: #86e3ce;
+        background-color: #ffffff;
+        text-align: left;
+        box-shadow: gray 1px 1px 2px;
+        border-radius: 5px;
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 2%;
+        padding-top: 1%;
+    }
+    h3{
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    li{
+        line-height: 2.0;
+    }
+
+    #rodape{
+        background-color: white;
+        background-size: 100%;
+        margin-top: 5%;
+        padding-top: 1%;
+        padding-left: 5%;
+        padding-bottom: 1%;
+    }
 }
