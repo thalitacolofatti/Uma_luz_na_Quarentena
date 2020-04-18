@@ -10,6 +10,21 @@ body{
     padding: 0%;
 }
 
+@media screen and (max-width: 720px){
+    body{
+         background-image:url("imagens/andsm_mobiledpi.png");
+    }
+    #maislinks{
+        display: unset;
+        margin: 2%
+    }
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: unset;
+    }
+}
+
 #cabecalho{
     text-align: center;
     color: #86e3ce;
