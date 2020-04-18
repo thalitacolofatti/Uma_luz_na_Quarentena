@@ -248,9 +248,9 @@
 
     #videos{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding:0%;
-        margin: 10%;
+        margin-bottom: 10%;
     }
 
     .descVideo{
