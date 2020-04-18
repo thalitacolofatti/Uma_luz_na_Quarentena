@@ -1,0 +1,106 @@
+body{
+        background-image: url("imagens/sobre.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        background-attachment: scroll;
+        background-color: #ccabd8;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0%;
+        padding: 0%;
+}
+
+#cabecalho{
+    color: #fa897b;
+    margin: 0%;
+}
+
+h1{
+    color: #ffffff;
+    background-color: #fa897b;
+    background: size 100%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0%;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    background-color: #ffffff;
+    margin: 0%;
+}
+
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ccabd8;
+    text-decoration: unset;
+    margin: 0%;
+}
+
+a:link{
+    color: #ccabd8;
+}
+
+a:hover{
+    color: #fa897b;
+}
+
+#conteudo{
+    margin: 5%;
+}
+
+#sobre{
+    display: flex;
+    justify-content: space-between;
+}
+
+#minhaImg{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 40%;
+}
+
+#textsobre{
+    padding: 2%;
+    text-align: justify;
+    background-color: #ffffff;
+    color: rgb(47, 47, 47);
+    border-radius: 10px;
+    box-shadow: gray 1px 1px 2px;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.redessociais{
+    padding-left: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones{
+    justify-content: center;
+    width: 45%;
+    height: auto;
+    opacity: 1.0;
+}
+
+.icones:hover{
+    opacity: 0.5;
+}
+
+#rodape{
+    background-color: white;
+    background-size: 100%;
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
